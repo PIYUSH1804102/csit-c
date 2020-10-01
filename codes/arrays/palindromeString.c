@@ -14,6 +14,7 @@ int main(void){
     
     printf("Enter a string:");
     scanf("%s", string1);
+    length = strlen(string1);
     
     for(i=0;i < strlen(string1);i++){
         if(string1[i] != string1[length-i-1]){
